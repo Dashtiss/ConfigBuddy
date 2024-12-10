@@ -1,0 +1,14 @@
+# requirements.txt
+
+# TOML
+toml
+tomli_w
+
+# JSON
+json
+pyyaml
+jsonschema
+ruamel.yaml
+build
+twine
+setuptools  

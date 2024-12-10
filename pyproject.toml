@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ConfigBuddy"
+version = "0.1.0"
+description = "A Python library for managing configuration files in multiple formats."
+authors = [
+    { name = "Dashtiss", email = "Dashtissrr@gmail.com" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "PyYAML>=6.0",
+    "tomli>=2.0",
+    "tomli-w>=1.0"
+]
